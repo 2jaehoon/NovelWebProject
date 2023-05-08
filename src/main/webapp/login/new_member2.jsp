@@ -14,7 +14,7 @@
 <link rel="stylesheet" href="https://pagestage-cdn.kakaoent.com/web/_next/static/css/6e5d8ba319c77348.css" data-n-g="" />
 <link rel="preload"	href="https://pagestage-cdn.kakaoent.com/web/_next/static/css/593189bb3d3dd926.css"	as="style" />
 <link rel="stylesheet" href="https://pagestage-cdn.kakaoent.com/web/_next/static/css/593189bb3d3dd926.css" data-n-p="" />
-<link rel="stylesheet" type="text/css" href="/project2/_next/static/css/login.css" />
+<link rel="stylesheet" type="text/css" href="/novelWebProject/_next/static/css/login.css" />
 
 <style type="text/css">
 #wrap{ width: 1300px;height: 900px;margin: 0px auto;}

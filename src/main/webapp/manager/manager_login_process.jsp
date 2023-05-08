@@ -87,7 +87,7 @@ color:#d7d7d7;
 //System.out.println("============"+lVO);
 //웹 파라메터의 아이디와 비밀번호가 존재하는 경우 비밀번호를
 if( lVO.getId()==null || "".equals( lVO.getId() ) || lVO.getPassword()==null||"".equals( lVO.getPassword() ) ){
-	response.sendRedirect("http://localhost/project2/manager/manager_login.jsp");
+	response.sendRedirect("http://localhost/novelWebProject/manager/manager_login.jsp");
 	return;
 }
 //MD5 알고리즘을 사용하여 일방향 해시로 암호화 수행한다.
@@ -122,10 +122,10 @@ session.setAttribute("user_num_member", 0);
 //session.setMaxInactiveInterval(60*60);
 
 if(id.equals(idChk) && password.equals(pwChk) ){
-	response.sendRedirect("http://localhost/project2/manager/manager_home.jsp");
+	response.sendRedirect("http://localhost/novelWebProject/manager/manager_home.jsp");
 }//end if
 }catch(NullPointerException ne){
-		response.sendRedirect("http://localhost/project2/manager/manager_login.jsp");
+		response.sendRedirect("http://localhost/novelWebProject/manager/manager_login.jsp");
 }
 %>
 

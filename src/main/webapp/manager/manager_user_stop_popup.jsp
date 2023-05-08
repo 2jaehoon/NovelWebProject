@@ -25,7 +25,7 @@
 	href="https://pagestage-cdn.kakaoent.com/web/_next/static/css/6e5d8ba319c77348.css"
 	data-n-g="" />
 <link rel="stylesheet" type="text/css"
-	href="/project2/_next/static/css/login.css" />
+	href="/novelWebProject/_next/static/css/login.css" />
 <script type="text/javascript">
 </script>
 

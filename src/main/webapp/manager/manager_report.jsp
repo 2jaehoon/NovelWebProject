@@ -9,7 +9,7 @@
   response.setDateHeader("Expires", 0); // Proxies.
 
    if(session.getAttribute("sesId")==null){
-     response.sendRedirect("http://localhost/project2/manager/manager_login.jsp");
+     response.sendRedirect("http://localhost/novelWebProject/manager/manager_login.jsp");
   } 
 %>
 <!DOCTYPE html>
@@ -22,7 +22,7 @@
 <link rel="stylesheet"	data-href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:500,700&amp;display=swap" />
 <link rel="preload"	href="https://pagestage-cdn.kakaoent.com/web/_next/static/css/6e5d8ba319c77348.css"	as="style" />
 <link rel="stylesheet" href="https://pagestage-cdn.kakaoent.com/web/_next/static/css/6e5d8ba319c77348.css" data-n-g="" />
-<link rel="stylesheet" type="text/css" href="/project2/_next/static/css/login.css" />
+<link rel="stylesheet" type="text/css" href="/novelWebProject/_next/static/css/login.css" />
 <script type="text/javascript">
 function deletePop(novelNum) {
     var popupUrlD = "manager_delete_popup.jsp?novelNum=" + novelNum;
@@ -91,8 +91,8 @@ function privatePop(novelNum){
 						<h1 class="sr-only">카카오페이지 스테이지</h1>
 						<a
 							class="ml-15 mr-16 max-w-[145px] flex-shrink flex-grow basis-0 py-[13.5px] desktop:ml-0 desktop:mr-32 desktop:max-w-[174px] desktop:py-0"
-							href="/project2/manager/manager_home.jsp"><img class="object-contain" width="157" height="27"
-							src="/project2/_next/static/images/logo.png"
+							href="/novelWebProject/manager/manager_home.jsp"><img class="object-contain" width="157" height="27"
+							src="/novelWebProject/_next/static/images/logo.png"
 							alt="소설조아 logo" /></a>
 							<a
 										class="typo-md1-b z-0 flex items-center py-[8.5px] ml-8 mr-8 px-16"
@@ -105,12 +105,12 @@ function privatePop(novelNum){
 							</div>
 						</div>
 						<div class="flex items-center ml-auto mr-15 desktop:mr-0">
-								<a href="/project2/manager/manager_novel.jsp">
+								<a href="/novelWebProject/manager/manager_novel.jsp">
 							<button
 								class="typo-md3 ml-auto flex cursor-pointer items-center rounded-50 bg-transparent text-black desktop:border-1 desktop:desktop:bg-black desktop:px-13 desktop:py-7 desktop:text-white">돌아가기</button>
 								</a>
 								&nbsp;&nbsp;&nbsp;
-								<a href="/project2/manager/manager_login.jsp">
+								<a href="/novelWebProject/manager/manager_login.jsp">
 							<button
 								class="typo-md3 ml-auto flex cursor-pointer items-center rounded-50 bg-transparent text-black desktop:border-1 desktop:desktop:bg-black desktop:px-13 desktop:py-7 desktop:text-white">로그아웃</button>
 								</a>
@@ -132,7 +132,7 @@ function privatePop(novelNum){
 											<%
 											if (nVO.getAgeAble() == 1) {//0 -> false(전체 이용가) //1 -> true(15세 이용가)
 											%>
-											<img alt="" src="/project2/_next/static/images/age.png"
+											<img alt="" src="/novelWebProject/_next/static/images/age.png"
 												style="width: 45px; height: 42px">
 											<% } %>
 										</h1>
@@ -169,7 +169,7 @@ function privatePop(novelNum){
 											style="height: 180px;">
 											<span
 												style="box-sizing: border-box; display: inline-block; overflow: hidden; width: 118px; height: 180px; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"><img
-												src="/project2/_next/static/images/novel_thumb/<%= nVO.getThumbnail() %>"
+												src="/novelWebProject/_next/static/images/novel_thumb/<%= nVO.getThumbnail() %>"
 												decoding="async"
 												data-nimg="fixed"
 												style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"></span>
@@ -193,7 +193,7 @@ function privatePop(novelNum){
 							<div class="border-b-1 py-9 desktop:border-b-2 desktop:py-12">
 								<div class="flex typo-md3 items-center justify-between">
 									<div class="flex typo-lg3-b items-center desktop:typo-lg1">
-									<img alt="" src="/project2/_next/static/images/report.png" style="height: 50px; width: 50px">
+									<img alt="" src="/novelWebProject/_next/static/images/report.png" style="height: 50px; width: 50px">
 										&nbsp; 신고
 									</div>
 								</div>
@@ -204,7 +204,7 @@ function privatePop(novelNum){
 									if (nVO.getReportCnt() != 0 ) {
 									%> 
 									<article>
-									<a href="/project2/episode/novel.jsp?num_novel=<%=nVO.getNovelNum()%>" 
+									<a href="/novelWebProject/episode/novel.jsp?num_novel=<%=nVO.getNovelNum()%>" 
 										class="flex border-black/10 bg-white px-18 visited:bg-grey10 desktop:border-b-1 desktop:px-30">
 										<div
 											class="border-b-1 border-black/10 desktop:border-0 flex flex-1 py-16 desktop:py-22">
@@ -227,7 +227,7 @@ function privatePop(novelNum){
 								 } else { 
 								%>
 								<article>
-									<a href="/project2/episode/novel.jsp?num_novel=<%=nVO.getNovelNum()%>" 
+									<a href="/novelWebProject/episode/novel.jsp?num_novel=<%=nVO.getNovelNum()%>" 
 										class="flex border-black/10 bg-white px-18 visited:bg-grey10 desktop:border-b-1 desktop:px-30">
 										<div
 											class="border-b-1 border-black/10 desktop:border-0 flex flex-1 py-16 desktop:py-22">

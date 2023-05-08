@@ -14,7 +14,7 @@
 <link rel="stylesheet" data-href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:500,700&amp;display=swap" />
 <link rel="preload"	href="https://pagestage-cdn.kakaoent.com/web/_next/static/css/6e5d8ba319c77348.css"	as="style" />
 <link rel="stylesheet" href="https://pagestage-cdn.kakaoent.com/web/_next/static/css/6e5d8ba319c77348.css" data-n-g="" />
-<link rel="stylesheet" type="text/css" href="/project2/_next/static/css/login.css" />
+<link rel="stylesheet" type="text/css" href="/novelWebProject/_next/static/css/login.css" />
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script type="text/javascript">
 
@@ -187,7 +187,7 @@ if("POST".equals(request.getMethod())){
 											<div>
 												<div class="flex">
 													<div>
-														<img src="/project2/_next/static/images/novel_thumb/<%=nVO.getFilephoto()%>" id="photo" style="width: 100px;height: 150px"/>
+														<img src="/novelWebProject/_next/static/images/novel_thumb/<%=nVO.getFilephoto()%>" id="photo" style="width: 100px;height: 150px"/>
 													</div>
 													<input type="file" name="upphoto" id="filephoto" style="display: none;">
 													<input type="hidden" name="filephoto" value="<%=nVO.getFilephoto()%>" style="display: none;">

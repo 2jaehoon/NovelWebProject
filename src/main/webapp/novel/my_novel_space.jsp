@@ -17,7 +17,7 @@
 <link rel="stylesheet" data-href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:500,700&amp;display=swap" />
 <link rel="preload"	href="https://pagestage-cdn.kakaoent.com/web/_next/static/css/6e5d8ba319c77348.css"	as="style" />
 <link rel="stylesheet" href="https://pagestage-cdn.kakaoent.com/web/_next/static/css/6e5d8ba319c77348.css" data-n-g="" />
-<link rel="stylesheet" type="text/css" href="/project2/_next/static/css/login.css" />		
+<link rel="stylesheet" type="text/css" href="/novelWebProject/_next/static/css/login.css" />		
 <noscript data-n-css=""></noscript>
 
 <!-- jQuery CDN 시작 -->
@@ -80,7 +80,7 @@ if(session.getAttribute("user_id")!=null){
 											<a class="flex-1 desktop:flex-none" onclick="new_novel()"><button
 													class="flex items-center justify-center border-1 appearance-none bg-black border-black text-white disabled:border-grey20 disabled:bg-grey20 disabled:text-grey60 px-24 py-12 typo-md2-b w-full border-1 !border-black"
 													type="button">
-													 <form action="/project2/novel/novel_regi.jsp" id="new_novel" method="post">
+													 <form action="/novelWebProject/novel/novel_regi.jsp" id="new_novel" method="post">
 													 </form>
 													<span class="">새 소설 등록</span>
 												</button></a>
@@ -132,7 +132,7 @@ if(session.getAttribute("user_id")!=null){
 										class="border-black/10 desktop:border-b-1 desktop:pt-24 desktop:pb-24">
 										<div class="flex items-center py-8 desktop:py-0">
 											<a class="relative flex flex-1 items-center" onclick="novel(${select.num_novel })">
-												<form action="/project2/novel/novel_list.jsp" id="${select.num_novel }" method="post">
+												<form action="/novelWebProject/novel/novel_list.jsp" id="${select.num_novel }" method="post">
 													<input type="hidden" name="num_novel" value="${select.num_novel }">
 												</form>
 												<div
@@ -141,13 +141,13 @@ if(session.getAttribute("user_id")!=null){
 													<span style="box-sizing: border-box; display: inline-block; overflow: hidden; width: 80px; height: 125px; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;">
 														<img
 														alt="ㄴㄹㅇㄹ"
-														srcset="/project2/_next/static/images/novel_thumb/${select.thumbnail}"
-														src="/project2/_next/static/images/novel_thumb/${select.thumbnail}" decoding="async"
+														srcset="/novelWebProject/_next/static/images/novel_thumb/${select.thumbnail}"
+														src="/novelWebProject/_next/static/images/novel_thumb/${select.thumbnail}" decoding="async"
 														data-nimg="fixed"
 														style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
 														>
-                                          		${select.ageAble?"<img class='absolute top-4 right-4' src='/project2/_next/static/icons/badge_thumbnail_adult15_s.svg' alt='15세 관람가 아이콘'/>":""}
-                                          		${select.end==1?"<img class='absolute top-4 left-4' src='/project2/_next/static/icons/badge_thumbnail_finish_s.svg' alt='완결'/>":""}
+                                          		${select.ageAble?"<img class='absolute top-4 right-4' src='/novelWebProject/_next/static/icons/badge_thumbnail_adult15_s.svg' alt='15세 관람가 아이콘'/>":""}
+                                          		${select.end==1?"<img class='absolute top-4 left-4' src='/novelWebProject/_next/static/icons/badge_thumbnail_finish_s.svg' alt='완결'/>":""}
 														
 													</span>
 												</div>

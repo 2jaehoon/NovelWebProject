@@ -9,7 +9,7 @@
 <link rel="stylesheet" data-href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:500,700&amp;display=swap" />
 <link rel="preload"	href="https://pagestage-cdn.kakaoent.com/web/_next/static/css/6e5d8ba319c77348.css"	as="style" />
 <link rel="stylesheet" href="https://pagestage-cdn.kakaoent.com/web/_next/static/css/6e5d8ba319c77348.css" data-n-g="" />
-<link rel="stylesheet" type="text/css" href="/project2/_next/static/css/login.css" />
+<link rel="stylesheet" type="text/css" href="/novelWebProject/_next/static/css/login.css" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
 <style type="text/css">
@@ -42,7 +42,7 @@
 	            $("#reportCode").val(value);
 	            $("#reportFrm").submit();
 	            alert( "신고되었습니다.");
-	            opener.parent.location.href="http://localhost/project2/episode/novel.jsp?num_novel=" + <%=request.getParameter("num_novel")%>;
+	            opener.parent.location.href="http://localhost/novelWebProject/episode/novel.jsp?num_novel=" + <%=request.getParameter("num_novel")%>;
 	        }
 	        else {
 	            alert('선택된 신고항목이 없습니다.');
@@ -60,7 +60,7 @@
 		data-body-scroll-lock="ignore" style="width: 502px; height: 800px; border: 1px solid #000000;">
 	<div class="flex flex-col h-full overflow-hidden px-18 py-24 desktop:p-30">
 		<div style="position: relative; top: 15px" class="flex-1 overflow-y-scroll scrollbar-hide desktop:px-10 desktop:pt-10">
-		<img id="reportImg" src="http://localhost/project2/_next/static/images/report.png" style="width: 40px; height: 40px;" alt="신고"/>
+		<img id="reportImg" src="http://localhost/novelWebProject/_next/static/images/report.png" style="width: 40px; height: 40px;" alt="신고"/>
 		<div class="typo-md1 text-center desktop:typo-lg3 py-8">
 			<div class="whitespace-pre-line" style="font-weight: bold; font-size: 20px">신고</div><br>
 			<div>서비스 이용목적에 부합하지 않는 콘텐츠를 신고해주세요. <br>

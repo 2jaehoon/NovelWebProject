@@ -12,7 +12,7 @@
   response.setDateHeader("Expires", 0); // Proxies.
 
    if(session.getAttribute("sesId")==null){
-     response.sendRedirect("http://localhost/project2/manager/manager_login.jsp");
+     response.sendRedirect("http://localhost/novelWebProject/manager/manager_login.jsp");
   } 
 %>
 <!DOCTYPE html>
@@ -28,7 +28,7 @@
 <link rel="stylesheet" href="https://pagestage-cdn.kakaoent.com/web/_next/static/css/6e5d8ba319c77348.css" data-n-g="" />
 <link rel="preload" href="https://pagestage-cdn.kakaoent.com/web/_next/static/css/fd0af5d18a01c194.css" as="style" />
 <link rel="stylesheet" href="https://pagestage-cdn.kakaoent.com/web/_next/static/css/fd0af5d18a01c194.css" data-n-p="" />
-<link rel="stylesheet" type="text/css" href="/project2/_next/static/css/font.css"/>
+<link rel="stylesheet" type="text/css" href="/novelWebProject/_next/static/css/font.css"/>
 
 <!-- jQuery CDN 시작 -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
@@ -166,8 +166,8 @@ function cancelStopPop(){
 	
 	<div>
 		<div id="pic" style="text-align: center;">
-			<img src="<%= (mVO.getThumbnail() != null) ? "/project2/_next/static/images/profile_images/" 
-				+ mVO.getThumbnail() : "/project2/_next/static/images/profile_home.png" %>" style="width: 170px; height: 170px; right:300px" alt="회원사진" >
+			<img src="<%= (mVO.getThumbnail() != null) ? "/novelWebProject/_next/static/images/profile_images/" 
+				+ mVO.getThumbnail() : "/novelWebProject/_next/static/images/profile_home.png" %>" style="width: 170px; height: 170px; right:300px" alt="회원사진" >
 		</div>
 		<input type = "hidden" value="<%= mVO.getId() %>"  id="hid"/>
 		<input type = "hidden" value="<%= mVO.getSusPeriod() %>"  id="hstop"/>

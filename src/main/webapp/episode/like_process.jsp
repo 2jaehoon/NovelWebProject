@@ -31,14 +31,14 @@
 			int insertLike = episodeDAO.insertLike(lVO);
 			
 			System.out.println(novelNum + ", " +userNum + ", 좋아요 완료 ");
-			response.sendRedirect("/project2/episode/novel.jsp?num_novel=" + novelNum);
+			response.sendRedirect("/novelWebProject/episode/novel.jsp?num_novel=" + novelNum);
 			
 			return;
 		}
 		
 		int deleteLike = episodeDAO.deleteLike(userNum, novelNum);
 		System.out.println(novelNum + ", " +userNum + ", 좋아요 취소 완료 ");
-		response.sendRedirect("/project2/episode/novel.jsp?num_novel=" + novelNum);
+		response.sendRedirect("/novelWebProject/episode/novel.jsp?num_novel=" + novelNum);
 		
 	}catch(SQLException e){
 		e.printStackTrace();
@@ -47,7 +47,7 @@
 <script type="text/javascript">
 	if("<%=request.getMethod()%>" == "GET") {
 		alert("정상적인 방식으로 요청하지 않았어요");
-		location.href = "http://localhost/project2/episode/novel_.jsp?num_novel="+novelNum;
+		location.href = "http://localhost/novelWebProject/episode/novel_.jsp?num_novel="+novelNum;
 	}
 </script>
 

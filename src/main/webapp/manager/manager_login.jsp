@@ -26,7 +26,7 @@
 <link rel="stylesheet" href="https://pagestage-cdn.kakaoent.com/web/_next/static/css/6e5d8ba319c77348.css" data-n-g="" />
 <link rel="preload" href="https://pagestage-cdn.kakaoent.com/web/_next/static/css/fd0af5d18a01c194.css" as="style" />
 <link rel="stylesheet" href="https://pagestage-cdn.kakaoent.com/web/_next/static/css/fd0af5d18a01c194.css" data-n-p="" />
-<link rel="stylesheet" type="text/css" href="http://localhost/project2/_next/static/css/font.css"/>
+<link rel="stylesheet" type="text/css" href="http://localhost/novelWebProject/_next/static/css/font.css"/>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <!-- jQuery CDN 끝 -->
 <script type="text/javascript">
@@ -169,10 +169,10 @@ function chkLeng(){
 
 	<header class="relative bg-white border-b-1 border-grey20">
 		<div class="flex mx-auto w-full max-w-default flex-row flex-wrap desktop:px-22 flex-wrap items-center desktop:min-h-[72px] desktop:flex-nowrap desktop:py-12">
-			<a class="ml-15 mr-16 max-w-[145px] flex-shrink flex-grow basis-0 py-[13.5px] desktop:ml-0 desktop:mr-32 desktop:max-w-[174px] desktop:py-0" href="http://localhost/project2/home/main.jsp">
-			<img class="object-contain" width="157" height="27" src="http://localhost/project2/_next/static/images/logo.png" alt="소설조아 logo" /></a>
+			<a class="ml-15 mr-16 max-w-[145px] flex-shrink flex-grow basis-0 py-[13.5px] desktop:ml-0 desktop:mr-32 desktop:max-w-[174px] desktop:py-0" href="http://localhost/novelWebProject/home/main.jsp">
+			<img class="object-contain" width="157" height="27" src="http://localhost/novelWebProject/_next/static/images/logo.png" alt="소설조아 logo" /></a>
 			<div class="flex items-center ml-auto mr-15 desktop:mr-0">
-				<input type="button" onclick="location.href='http://localhost/project2/manager/manager_login.jsp'" class="typo-md3 ml-auto flex cursor-pointer items-center rounded-50 bg-transparent text-black desktop:border-1 desktop:desktop:bg-black desktop:px-13 desktop:py-7 desktop:text-white"  value="로그인" />
+				<input type="button" onclick="location.href='http://localhost/novelWebProject/manager/manager_login.jsp'" class="typo-md3 ml-auto flex cursor-pointer items-center rounded-50 bg-transparent text-black desktop:border-1 desktop:desktop:bg-black desktop:px-13 desktop:py-7 desktop:text-white"  value="로그인" />
 			</div>
 		</div>
 	</header>
@@ -182,7 +182,7 @@ function chkLeng(){
 	<!-- flex-row:아이템들이 행방향으로 배치 flex-wrap:줄넘김 -->
 	<main class="flex-1 mx-auto w-full max-w-default flex-row flex-wrap">
 	
-	<form name="form" method="post" action="http://localhost/project2/manager/manager_login_process.jsp" id="frm">
+	<form name="form" method="post" action="http://localhost/novelWebProject/manager/manager_login_process.jsp" id="frm">
 		<div>
 			<h1>&nbsp;</h1><br>
 			<h2>관리자 로그인</h2><br>

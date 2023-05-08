@@ -15,7 +15,7 @@
 <!-- <link rel="stylesheet" href="https://pagestage-cdn.kakaoent.com/web/_next/static/css/6e5d8ba319c77348.css" data-n-g="" /> -->
 <link rel="preload" href="https://pagestage-cdn.kakaoent.com/web/_next/static/css/593189bb3d3dd926.css" as="style" />
 <link rel="stylesheet" href="https://pagestage-cdn.kakaoent.com/web/_next/static/css/593189bb3d3dd926.css" data-n-p="" />
-<link rel="stylesheet" type="text/css" href="/project2/_next/static/css/login.css" />
+<link rel="stylesheet" type="text/css" href="/novelWebProject/_next/static/css/login.css" />
 <noscript data-n-css=""></noscript>
 
 <style type="text/css">
@@ -61,7 +61,7 @@ textarea{width: 700px; height: 400px;}
 </head>
 <body>
 
-            <form action="/project2/login/new_member.jsp" method = "get" name="agreeFrm"> 
+            <form action="/novelWebProject/login/new_member.jsp" method = "get" name="agreeFrm"> 
             
            <%
             String agree1 = request.getParameter("agree1");
@@ -71,9 +71,9 @@ textarea{width: 700px; height: 400px;}
         	  %>
         	 <script>
         	 window.close();
-        	 opener.location.href='/project2/login/new_member2.jsp';
+        	 opener.location.href='/novelWebProject/login/new_member2.jsp';
         	</script>
-        	<!-- /* response.sendRedirect("/project2/login/new_member2.jsp"); */ -->
+        	<!-- /* response.sendRedirect("/novelWebProject/login/new_member2.jsp"); */ -->
         	<%
           }
             %> 

@@ -24,7 +24,7 @@
 <link rel="stylesheet"
 	href="https://pagestage-cdn.kakaoent.com/web/_next/static/css/593189bb3d3dd926.css"
 	data-n-p="" />
-<link rel="stylesheet" type="text/css" href="/project2/_next/static/css/login.css" />	
+<link rel="stylesheet" type="text/css" href="/novelWebProject/_next/static/css/login.css" />	
 <noscript data-n-css=""></noscript>
 <style
 	data-href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:500,700&display=swap">
@@ -95,7 +95,7 @@ if("".equals(id)||"".equals(pw)){
 
         
         
-<form action="/project2/login/check.jsp"  name="idChkFrm" method="get">
+<form action="/novelWebProject/login/check.jsp"  name="idChkFrm" method="get">
        <div id="container">
            <div id="frame">
             <div id="text_id" style="font-size: 50px; font-weight: bold;">본인 확인</div>
@@ -109,7 +109,7 @@ if("".equals(id)||"".equals(pw)){
                 <div id="input_phone"><input type="password"style="width:340px;height:20px;" name="pw"></div>
                 <div id="buttonId">
                     <input type="button"class="button" value="확인" id="idBtn">
-                    <input type="button"class="button" value="취소"  onclick="window.location.href='/project2/home/main(login).jsp'">
+                    <input type="button"class="button" value="취소"  onclick="window.location.href='/novelWebProject/home/main(login).jsp'">
                 </div>
             </div>
            </div>

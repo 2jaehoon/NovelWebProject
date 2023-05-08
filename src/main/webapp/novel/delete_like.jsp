@@ -11,5 +11,5 @@ mDAO.deleteNovel(request.getParameter("num_novel"), session.getAttribute("user_n
 }catch(SQLException se){
 	se.printStackTrace();
 }
-response.sendRedirect("/project2/login/like.jsp?search=&order_novel=0");
+response.sendRedirect("/novelWebProject/login/like.jsp?search=&order_novel=0");
 %>

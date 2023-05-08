@@ -17,7 +17,7 @@
 		
 		if(removeCnt <= 0){
 			System.out.println(epNum+", "+removeCnt + ", 삭제 실패");
-			response.sendRedirect("/project2/login/loginpage.jsp");
+			response.sendRedirect("/novelWebProject/login/loginpage.jsp");
 			
 		}else{
 			System.out.println(epNum+", "+removeCnt + ", 삭제 완료");

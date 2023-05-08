@@ -19,7 +19,7 @@
 <link rel="preload"	href="https://pagestage-cdn.kakaoent.com/web/_next/static/css/593189bb3d3dd926.css"	as="style" />
 <link rel="stylesheet" href="https://pagestage-cdn.kakaoent.com/web/_next/static/css/593189bb3d3dd926.css" data-n-p="" />
 <link rel="stylesheet" type="text/css" href="html_prj/common/main_v20230217.css">
-<link rel="stylesheet" type="text/css" href="/project2/_next/static/css/login.css" />
+<link rel="stylesheet" type="text/css" href="/novelWebProject/_next/static/css/login.css" />
 <noscript data-n-css=""></noscript>
 
 </head>
@@ -47,11 +47,11 @@
 									<div class="typo-md3 w-103 flex-[0_0_auto] px-0">랭킹종류</div>
 									<div
 										class="grid desktop:flex grid-flow-col flex-wrap max-w-full-view overflow-x-scroll overflow-y-hidden scrolling-touch desktop:overflow-x-visible desktop:overflow-y-visible before:grow-0 after:grow-0 before:content-[&quot;&quot;] after:content-[&quot;&quot;] before:flex-[0_1_0%] after:flex-[0_1_0%] desktop:after:hidden desktop:before:hidden auto-cols-max before:w-16 after:w-16 HorizontalScroll_horizontalScrollbar__5q9CM">
-										<button onclick="location.href='/project2/home/ranking.jsp?type=0'"
+										<button onclick="location.href='/novelWebProject/home/ranking.jsp?type=0'"
 											class="typo-sm1 mr-8 rounded-20 py-[3.5px] px-10 <%=request.getParameter("type").equals("0")?"bg-black text-white":"text-grey70" %>">일간</button>
-										<button onclick="location.href='/project2/home/ranking.jsp?type=1'"
+										<button onclick="location.href='/novelWebProject/home/ranking.jsp?type=1'"
 											class="typo-sm1 mr-8 rounded-20 py-[3.5px] px-10 <%=request.getParameter("type").equals("1")?"bg-black text-white":"text-grey70" %>">주간</button>
-										<button onclick="location.href='/project2/home/ranking.jsp?type=2'"
+										<button onclick="location.href='/novelWebProject/home/ranking.jsp?type=2'"
 											class="typo-sm1 mr-8 rounded-20 py-[3.5px] px-10 <%=request.getParameter("type").equals("2")?"bg-black text-white":"text-grey70" %>">월간</button>
 									</div>
 								</div>
@@ -72,9 +72,9 @@
 											class="flex items-center flex-row w-full flex-row-reverse"
 											data-testid="skeleton">
 											<div class="relative overflow-hidden rounded-3 bg-grey10 w-80 h-122 desktop:h-125 ml-16">
-												<img alt="썸네일 이미지" src="/project2/_next/static/images/novel_thumb/<%=list.get(i).getPhoto() %>" decoding="async" data-nimg="fixed" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover"/>
-                                                                <%=list.get(i).getAge()==1?"<img class='absolute top-4 right-4' src='/project2/_next/static/icons/badge_thumbnail_adult15_s.svg' alt='15세 관람가 아이콘'/>":""%>
-                                                                <%=list.get(i).getEnd()==1?"<img class='absolute top-4 left-4' src='/project2/_next/static/icons/badge_thumbnail_finish_s.svg' alt='완결'/>":""%>
+												<img alt="썸네일 이미지" src="/novelWebProject/_next/static/images/novel_thumb/<%=list.get(i).getPhoto() %>" decoding="async" data-nimg="fixed" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover"/>
+                                                                <%=list.get(i).getAge()==1?"<img class='absolute top-4 right-4' src='/novelWebProject/_next/static/icons/badge_thumbnail_adult15_s.svg' alt='15세 관람가 아이콘'/>":""%>
+                                                                <%=list.get(i).getEnd()==1?"<img class='absolute top-4 left-4' src='/novelWebProject/_next/static/icons/badge_thumbnail_finish_s.svg' alt='완결'/>":""%>
 											</div>
 											<div class="flex flex-col w-full flex-1">
                                                                         <div class="typo-md2 flex items-center desktop:typo-md1 !typo-md2 mb-6 desktop:!typo-md3 desktop:mb-4">

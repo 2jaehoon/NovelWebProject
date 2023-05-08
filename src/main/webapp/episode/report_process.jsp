@@ -39,7 +39,7 @@ request.setCharacterEncoding("UTF-8");
 			
 		}else{
 			System.out.println(rVO.getNovelNum()+", "+reportCnt + ", 신고 실패");
-			response.sendRedirect("/project2/episode/novel.jsp?num_novel=" + num_novel);
+			response.sendRedirect("/novelWebProject/episode/novel.jsp?num_novel=" + num_novel);
 		}
 		
 	}catch(SQLException e){

@@ -16,7 +16,7 @@
 <link rel="stylesheet" data-href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:500,700&amp;display=swap" />
 <link rel="preload"	href="https://pagestage-cdn.kakaoent.com/web/_next/static/css/6e5d8ba319c77348.css" as="style" />
 <link rel="stylesheet" href="https://pagestage-cdn.kakaoent.com/web/_next/static/css/6e5d8ba319c77348.css" data-n-g="" />
-<link rel="stylesheet" type="text/css" href="/project2/_next/static/css/font.css" />
+<link rel="stylesheet" type="text/css" href="/novelWebProject/_next/static/css/font.css" />
 <noscript data-n-css=""></noscript>
 <style data-href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:500,700&display=swap">
 </style>
@@ -87,7 +87,7 @@ $(function () {
 
 </script>
 </head>
-<form action="/project2/novel/delete_novel_popup.jsp" id="del_frm" method="post" target="del_popup" onsubmit="window.open('/project2/novel/delete_novel_popup.jsp','del_popup','width= 504, height= 354, top = 100, left = 100');">
+<form action="/novelWebProject/novel/delete_novel_popup.jsp" id="del_frm" method="post" target="del_popup" onsubmit="window.open('/novelWebProject/novel/delete_novel_popup.jsp','del_popup','width= 504, height= 354, top = 100, left = 100');">
 <input type="hidden" name="num_novel" value="<%=request.getParameter("num_novel")%>">
 </form>
 <%
@@ -129,12 +129,12 @@ if(session.getAttribute("user_num_member").toString().equals(String.valueOf(nDAO
 													style="height: 181px;">
 													<span
 														style="box-sizing: border-box; display: inline-block; overflow: hidden; width: 116px; height: 181px; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"><img
-														srcset="/project2/_next/static/images/novel_thumb/<%=nVO.getPhoto() %>" decoding="async"
+														srcset="/novelWebProject/_next/static/images/novel_thumb/<%=nVO.getPhoto() %>" decoding="async"
 														data-nimg="fixed"
 														style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;">
 													</span>
-                                                    <%=nVO.getAge()==1?"<img class='absolute top-4 right-4' src='/project2/_next/static/icons/badge_thumbnail_adult15_s.svg' alt='15세 관람가 아이콘'/>":""%>
-                                                    <%=nVO.getEnd()==1?"<img class='absolute top-4 left-4' src='/project2/_next/static/icons/badge_thumbnail_finish_s.svg' alt='완결'/>":""%>
+                                                    <%=nVO.getAge()==1?"<img class='absolute top-4 right-4' src='/novelWebProject/_next/static/icons/badge_thumbnail_adult15_s.svg' alt='15세 관람가 아이콘'/>":""%>
+                                                    <%=nVO.getEnd()==1?"<img class='absolute top-4 left-4' src='/novelWebProject/_next/static/icons/badge_thumbnail_finish_s.svg' alt='완결'/>":""%>
 												</div>
 											</div>
 											<div class="flex flex-col ml-28 flex-1 items-start">
@@ -151,11 +151,11 @@ if(session.getAttribute("user_num_member").toString().equals(String.valueOf(nDAO
 														<a
 															class="flex items-center justify-center border-1 appearance-none bg-black border-black text-white disabled:border-grey20 disabled:bg-grey20 disabled:text-grey60 px-24 py-12 typo-md2-b mr-8"
 															type="button"
-															href="/project2/episode/episodeMy/episode_write.jsp?num_novel=<%=request.getParameter("num_novel")%>">연재 작품 쓰기</a>
+															href="/novelWebProject/episode/episodeMy/episode_write.jsp?num_novel=<%=request.getParameter("num_novel")%>">연재 작품 쓰기</a>
 														<a
 															class="flex items-center justify-center border-1 appearance-none bg-black border-black text-white disabled:border-grey20 disabled:bg-grey20 disabled:text-grey60 px-24 py-12 typo-md2-b mr-8"
 															type="button" onclick="edit()">수정</a>
-															<form action="/project2/novel/novel_edit.jsp" id="edit_frm" method="post">
+															<form action="/novelWebProject/novel/novel_edit.jsp" id="edit_frm" method="post">
 															<input type="hidden" name="num_novel" value="<%=request.getParameter("num_novel")%>">
 															</form>
 														<button id="del_novel"

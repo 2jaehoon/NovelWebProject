@@ -31,7 +31,7 @@ public class DbConnection {
 		try {
 			Context ctx = new InitialContext();
 			// 2. JNDI로 찾아낸 DBCP에서 DataSource 얻기
-			DataSource ds = (DataSource)ctx.lookup("java:comp/env/jdbc/project2");
+			DataSource ds = (DataSource)ctx.lookup("java:comp/env/jdbc/novelWebProject");
 			// 3. Connection 얻기
 			con = ds.getConnection();
 			

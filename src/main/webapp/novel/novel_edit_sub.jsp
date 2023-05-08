@@ -84,10 +84,10 @@ if("POST".equals(request.getMethod())){
 		}catch(SQLException se){
 			se.printStackTrace();
 		}//end catch
-		response.sendRedirect("/project2/novel/novel_list.jsp?num_novel="+num_novel);
+		response.sendRedirect("/novelWebProject/novel/novel_list.jsp?num_novel="+num_novel);
 		
 }else{
-response.sendRedirect("/project2/login/my_page.jsp");
+response.sendRedirect("/novelWebProject/login/my_page.jsp");
 }
 
 %>

@@ -16,7 +16,7 @@
 <link rel="stylesheet" href="https://pagestage-cdn.kakaoent.com/web/_next/static/css/6e5d8ba319c77348.css" data-n-g="" />
 <link rel="preload"	href="https://pagestage-cdn.kakaoent.com/web/_next/static/css/593189bb3d3dd926.css"	as="style" />
 <link rel="stylesheet" href="https://pagestage-cdn.kakaoent.com/web/_next/static/css/593189bb3d3dd926.css" data-n-p="" />
-<link rel="stylesheet" type="text/css" href="/project2/_next/static/css/login.css" />
+<link rel="stylesheet" type="text/css" href="/novelWebProject/_next/static/css/login.css" />
 <noscript data-n-css=""></noscript>
 
 </head>
@@ -58,13 +58,13 @@
                                                         <article class="flex items-center items-center">
                                                             <div class="flex relative shrink-0 items-start overflow-hidden ml-15 h-125 w-80 desktop:ml-0 desktop:h-[233px] desktop:w-149 order-1" style="height:233px">
                                                                 <span style="box-sizing:border-box;display:inline-block;overflow:hidden;width:149px;height:233px;background:none;opacity:1;border:0;margin:0;padding:0;position:relative">
-                                                                    <img alt="썸네일 이미지" src="/project2/_next/static/images/novel_thumb/<%=list.get(0).getPhoto() %>" decoding="async" data-nimg="fixed" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover"/>
+                                                                    <img alt="썸네일 이미지" src="/novelWebProject/_next/static/images/novel_thumb/<%=list.get(0).getPhoto() %>" decoding="async" data-nimg="fixed" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover"/>
                                                                     <noscript>
                                                                         <img alt="스트리밍 썸네일 이미지" srcSet="/_next/image?url=https%3A%2F%2Fdn-api1-kage.kakao.com%2Fdn%2FrdsqY%2FbtrXVRY8hQm%2F2v5pbDaqEgWlFV6HlrnK00%2Foriginal.jpeg&amp;w=250&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fdn-api1-kage.kakao.com%2Fdn%2FrdsqY%2FbtrXVRY8hQm%2F2v5pbDaqEgWlFV6HlrnK00%2Foriginal.jpeg&amp;w=350&amp;q=75 2x" src="/_next/image?url=https%3A%2F%2Fdn-api1-kage.kakao.com%2Fdn%2FrdsqY%2FbtrXVRY8hQm%2F2v5pbDaqEgWlFV6HlrnK00%2Foriginal.jpeg&amp;w=350&amp;q=75" decoding="async" data-nimg="fixed" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover" loading="lazy"/>
                                                                     </noscript>
                                                                 </span>
-                                                                <%=list.get(0).getAge()==1?"<img class='absolute top-4 right-4' src='/project2/_next/static/icons/badge_thumbnail_adult15_s.svg' alt='15세 관람가 아이콘'/>":""%>
-                                                                <%=list.get(0).getEnd()==1?"<img class='absolute top-4 left-4' src='/project2/_next/static/icons/badge_thumbnail_finish_s.svg' alt='완결'/>":""%>
+                                                                <%=list.get(0).getAge()==1?"<img class='absolute top-4 right-4' src='/novelWebProject/_next/static/icons/badge_thumbnail_adult15_s.svg' alt='15세 관람가 아이콘'/>":""%>
+                                                                <%=list.get(0).getEnd()==1?"<img class='absolute top-4 left-4' src='/novelWebProject/_next/static/icons/badge_thumbnail_finish_s.svg' alt='완결'/>":""%>
                                                             </div>
                                                             <div class="flex flex-col order-2 flex-1">
                                                                 <div class="flex">
@@ -100,13 +100,13 @@
                                                         <article class="flex items-center">
                                                             <div class="flex relative shrink-0 items-start overflow-hidden h-98 w-64 desktop:h-125 desktop:w-80 order-1" style="height:125px">
                                                                 <span style="box-sizing:border-box;display:inline-block;overflow:hidden;width:80px;height:125px;background:none;opacity:1;border:0;margin:0;padding:0;position:relative">
-                                                                    <img alt="" src="/project2/_next/static/images/novel_thumb/<%=list.get(j).getPhoto() %>" decoding="async" data-nimg="fixed" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover"/>
+                                                                    <img alt="" src="/novelWebProject/_next/static/images/novel_thumb/<%=list.get(j).getPhoto() %>" decoding="async" data-nimg="fixed" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover"/>
                                                                     <noscript>
                                                                         <img alt="서림동 편지 가게 : 유난히 긴 밤을 걷는 자들을 위해 열립니다. 썸네일 이미지" srcSet="/_next/image?url=https%3A%2F%2Fdn-api1-kage.kakao.com%2Fdn%2FsWOwd%2FbtrZclrilZ3%2FJr5jLK8U4HCSDRSK47nsK1%2Foriginal.jpeg&amp;w=80&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fdn-api1-kage.kakao.com%2Fdn%2FsWOwd%2FbtrZclrilZ3%2FJr5jLK8U4HCSDRSK47nsK1%2Foriginal.jpeg&amp;w=250&amp;q=75 2x" src="/_next/image?url=https%3A%2F%2Fdn-api1-kage.kakao.com%2Fdn%2FsWOwd%2FbtrZclrilZ3%2FJr5jLK8U4HCSDRSK47nsK1%2Foriginal.jpeg&amp;w=250&amp;q=75" decoding="async" data-nimg="fixed" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover" loading="lazy"/>
                                                                     </noscript>
                                                                 </span>
-                                                                <%=list.get(j).getAge()==1?"<img class='absolute top-4 right-4' src='/project2/_next/static/icons/badge_thumbnail_adult15_s.svg' alt='15세 관람가 아이콘'/>":""%>
-                                                                <%=list.get(j).getEnd()==1?"<img class='absolute top-4 left-4' src='/project2/_next/static/icons/badge_thumbnail_finish_s.svg' alt='완결'/>":""%>
+                                                                <%=list.get(j).getAge()==1?"<img class='absolute top-4 right-4' src='/novelWebProject/_next/static/icons/badge_thumbnail_adult15_s.svg' alt='15세 관람가 아이콘'/>":""%>
+                                                                <%=list.get(j).getEnd()==1?"<img class='absolute top-4 left-4' src='/novelWebProject/_next/static/icons/badge_thumbnail_finish_s.svg' alt='완결'/>":""%>
                                                             </div>
                                                             <div class="flex flex-col order-2 flex-1">
                                                                 <div class="flex">
@@ -144,7 +144,7 @@
                                         <section>
                                             <div class="flex flex-wrap w-full items-start desktop:items-center border-b-1 border-black pb-16">
                                                 <h2 class="typo-lg3-b flex-1 break-normal desktop:typo-lg1 desktop:flex-initial">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </h2>
-                                                <a class="typo-md3 ml-auto flex items-center text-black desktop:text-grey60" href="/project2/home/ranking.jsp?type=0">
+                                                <a class="typo-md3 ml-auto flex items-center text-black desktop:text-grey60" href="/novelWebProject/home/ranking.jsp?type=0">
                                                     <span class="mr-4 hidden desktop:inline">더보기</span>
                                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
                                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M11 8.00064L6.06282 13.0013L4.99541 11.9474L8.8921 8.00064L4.99541 4.05387L6.06282 3L11 8.00064Z" fill="currentColor"></path>
@@ -159,13 +159,13 @@
                                                     <a class="flex items-center flex-row" data-testid="skeleton" href="../episode/novel.jsp?num_novel=<%=list.get(j).getNum_novel()%>">
                                                         <div class="relative overflow-hidden rounded-3 bg-grey10 w-64 desktop:w-56 h-98 desktop:h-88 mr-14">
                                                                 <span style="box-sizing:border-box;display:inline-block;overflow:hidden;width:80px;height:125px;background:none;opacity:1;border:0;margin:0;padding:0;position:relative">
-                                                                    <img alt="" src="/project2/_next/static/images/novel_thumb/<%=list.get(j).getPhoto() %>" decoding="async" data-nimg="fixed" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover"/>
+                                                                    <img alt="" src="/novelWebProject/_next/static/images/novel_thumb/<%=list.get(j).getPhoto() %>" decoding="async" data-nimg="fixed" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover"/>
                                                                     <noscript>
                                                                         <img alt="서림동 편지 가게 : 유난히 긴 밤을 걷는 자들을 위해 열립니다. 썸네일 이미지" srcSet="/_next/image?url=https%3A%2F%2Fdn-api1-kage.kakao.com%2Fdn%2FsWOwd%2FbtrZclrilZ3%2FJr5jLK8U4HCSDRSK47nsK1%2Foriginal.jpeg&amp;w=80&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fdn-api1-kage.kakao.com%2Fdn%2FsWOwd%2FbtrZclrilZ3%2FJr5jLK8U4HCSDRSK47nsK1%2Foriginal.jpeg&amp;w=250&amp;q=75 2x" src="/_next/image?url=https%3A%2F%2Fdn-api1-kage.kakao.com%2Fdn%2FsWOwd%2FbtrZclrilZ3%2FJr5jLK8U4HCSDRSK47nsK1%2Foriginal.jpeg&amp;w=250&amp;q=75" decoding="async" data-nimg="fixed" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover" loading="lazy"/>
                                                                     </noscript>
                                                                 </span>
-                                                                <%=list.get(j).getAge()==1?"<img class='absolute top-4 right-4' src='/project2/_next/static/icons/badge_thumbnail_adult15_s.svg' alt='15세 관람가 아이콘'/>":""%>
-                                                                <%=list.get(j).getEnd()==1?"<img class='absolute top-4 left-4' src='/project2/_next/static/icons/badge_thumbnail_finish_s.svg' alt='완결'/>":""%>
+                                                                <%=list.get(j).getAge()==1?"<img class='absolute top-4 right-4' src='/novelWebProject/_next/static/icons/badge_thumbnail_adult15_s.svg' alt='15세 관람가 아이콘'/>":""%>
+                                                                <%=list.get(j).getEnd()==1?"<img class='absolute top-4 left-4' src='/novelWebProject/_next/static/icons/badge_thumbnail_finish_s.svg' alt='완결'/>":""%>
                                                         </div>
                                                                     <div class="flex flex-col typo-g-md1 items-center ml-16 mr-12 w-11 desktop:mx-8 desktop:w-26">
                                                                         <span style="transform: translateY(-100%);"><%=j+1%></span>
@@ -215,12 +215,12 @@
                                                         <article class="flex items-center items-center">
                                                             <div class="flex relative shrink-0 items-start overflow-hidden ml-15 h-125 w-80 desktop:ml-0 desktop:h-[233px] desktop:w-149 order-1" style="height:233px">
                                                                 <span style="box-sizing:border-box;display:inline-block;overflow:hidden;width:149px;height:233px;background:none;opacity:1;border:0;margin:0;padding:0;position:relative">
-                                                                    <img alt="썸네일 이미지" src="/project2/_next/static/images/novel_thumb/<%=list.get(0).getPhoto() %>" decoding="async" data-nimg="fixed" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover"/>
+                                                                    <img alt="썸네일 이미지" src="/novelWebProject/_next/static/images/novel_thumb/<%=list.get(0).getPhoto() %>" decoding="async" data-nimg="fixed" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover"/>
                                                                     <noscript>
                                                                         <img alt="스트리밍 썸네일 이미지" srcSet="/_next/image?url=https%3A%2F%2Fdn-api1-kage.kakao.com%2Fdn%2FrdsqY%2FbtrXVRY8hQm%2F2v5pbDaqEgWlFV6HlrnK00%2Foriginal.jpeg&amp;w=250&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fdn-api1-kage.kakao.com%2Fdn%2FrdsqY%2FbtrXVRY8hQm%2F2v5pbDaqEgWlFV6HlrnK00%2Foriginal.jpeg&amp;w=350&amp;q=75 2x" src="/_next/image?url=https%3A%2F%2Fdn-api1-kage.kakao.com%2Fdn%2FrdsqY%2FbtrXVRY8hQm%2F2v5pbDaqEgWlFV6HlrnK00%2Foriginal.jpeg&amp;w=350&amp;q=75" decoding="async" data-nimg="fixed" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover" loading="lazy"/>
                                                                     </noscript>
                                                                 </span>
-                                                                <%=list.get(0).getAge()==1?"<img class='absolute top-4 right-4' src='/project2/_next/static/icons/badge_thumbnail_adult15_s.svg' alt='15세 관람가 아이콘'/>":""%>
+                                                                <%=list.get(0).getAge()==1?"<img class='absolute top-4 right-4' src='/novelWebProject/_next/static/icons/badge_thumbnail_adult15_s.svg' alt='15세 관람가 아이콘'/>":""%>
                                                             </div>
                                                             <div class="flex flex-col order-2 flex-1">
                                                                 <div class="flex">
@@ -256,13 +256,13 @@
                                                         <article class="flex items-center">
                                                             <div class="flex relative shrink-0 items-start overflow-hidden h-98 w-64 desktop:h-125 desktop:w-80 order-1" style="height:125px">
                                                                 <span style="box-sizing:border-box;display:inline-block;overflow:hidden;width:80px;height:125px;background:none;opacity:1;border:0;margin:0;padding:0;position:relative">
-                                                                    <img alt="" src="/project2/_next/static/images/novel_thumb/<%=list.get(j).getPhoto() %>" decoding="async" data-nimg="fixed" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover"/>
+                                                                    <img alt="" src="/novelWebProject/_next/static/images/novel_thumb/<%=list.get(j).getPhoto() %>" decoding="async" data-nimg="fixed" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover"/>
                                                                     <noscript>
                                                                         <img alt="서림동 편지 가게 : 유난히 긴 밤을 걷는 자들을 위해 열립니다. 썸네일 이미지" srcSet="/_next/image?url=https%3A%2F%2Fdn-api1-kage.kakao.com%2Fdn%2FsWOwd%2FbtrZclrilZ3%2FJr5jLK8U4HCSDRSK47nsK1%2Foriginal.jpeg&amp;w=80&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fdn-api1-kage.kakao.com%2Fdn%2FsWOwd%2FbtrZclrilZ3%2FJr5jLK8U4HCSDRSK47nsK1%2Foriginal.jpeg&amp;w=250&amp;q=75 2x" src="/_next/image?url=https%3A%2F%2Fdn-api1-kage.kakao.com%2Fdn%2FsWOwd%2FbtrZclrilZ3%2FJr5jLK8U4HCSDRSK47nsK1%2Foriginal.jpeg&amp;w=250&amp;q=75" decoding="async" data-nimg="fixed" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover" loading="lazy"/>
                                                                     </noscript>
                                                                 </span>
-                                                                <%=list.get(j).getAge()==1?"<img class='absolute top-4 right-4' src='/project2/_next/static/icons/badge_thumbnail_adult15_s.svg' alt='15세 관람가 아이콘'/>":""%>
-                                                                <%=list.get(j).getEnd()==1?"<img class='absolute top-4 left-4' src='/project2/_next/static/icons/badge_thumbnail_finish_s.svg' alt='완결'/>":""%>
+                                                                <%=list.get(j).getAge()==1?"<img class='absolute top-4 right-4' src='/novelWebProject/_next/static/icons/badge_thumbnail_adult15_s.svg' alt='15세 관람가 아이콘'/>":""%>
+                                                                <%=list.get(j).getEnd()==1?"<img class='absolute top-4 left-4' src='/novelWebProject/_next/static/icons/badge_thumbnail_finish_s.svg' alt='완결'/>":""%>
                                                             
                                                             </div>
                                                             <div class="flex flex-col order-2 flex-1">
@@ -301,7 +301,7 @@
                                         <section>
                                             <div class="flex flex-wrap w-full items-start desktop:items-center border-b-1 border-black pb-16">
                                                 <h2 class="typo-lg3-b flex-1 break-normal desktop:typo-lg1 desktop:flex-initial">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </h2>
-                                                <a class="typo-md3 ml-auto flex items-center text-black desktop:text-grey60" href="/project2/home/ranking.jsp?type=1">
+                                                <a class="typo-md3 ml-auto flex items-center text-black desktop:text-grey60" href="/novelWebProject/home/ranking.jsp?type=1">
                                                     <span class="mr-4 hidden desktop:inline">더보기</span>
                                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
                                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M11 8.00064L6.06282 13.0013L4.99541 11.9474L8.8921 8.00064L4.99541 4.05387L6.06282 3L11 8.00064Z" fill="currentColor"></path>
@@ -316,13 +316,13 @@
                                                     <a class="flex items-center flex-row" data-testid="skeleton" href="../episode/novel.jsp?num_novel=<%=list.get(j).getNum_novel()%>">
                                                         <div class="relative overflow-hidden rounded-3 bg-grey10 w-64 desktop:w-56 h-98 desktop:h-88 mr-14">
                                                                 <span style="box-sizing:border-box;display:inline-block;overflow:hidden;width:80px;height:125px;background:none;opacity:1;border:0;margin:0;padding:0;position:relative">
-                                                                    <img alt="" src="/project2/_next/static/images/novel_thumb/<%=list.get(j).getPhoto() %>" decoding="async" data-nimg="fixed" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover"/>
+                                                                    <img alt="" src="/novelWebProject/_next/static/images/novel_thumb/<%=list.get(j).getPhoto() %>" decoding="async" data-nimg="fixed" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover"/>
                                                                     <noscript>
                                                                         <img alt="서림동 편지 가게 : 유난히 긴 밤을 걷는 자들을 위해 열립니다. 썸네일 이미지" srcSet="/_next/image?url=https%3A%2F%2Fdn-api1-kage.kakao.com%2Fdn%2FsWOwd%2FbtrZclrilZ3%2FJr5jLK8U4HCSDRSK47nsK1%2Foriginal.jpeg&amp;w=80&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fdn-api1-kage.kakao.com%2Fdn%2FsWOwd%2FbtrZclrilZ3%2FJr5jLK8U4HCSDRSK47nsK1%2Foriginal.jpeg&amp;w=250&amp;q=75 2x" src="/_next/image?url=https%3A%2F%2Fdn-api1-kage.kakao.com%2Fdn%2FsWOwd%2FbtrZclrilZ3%2FJr5jLK8U4HCSDRSK47nsK1%2Foriginal.jpeg&amp;w=250&amp;q=75" decoding="async" data-nimg="fixed" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover" loading="lazy"/>
                                                                     </noscript>
                                                                 </span>
-                                                                <%=list.get(j).getAge()==1?"<img class='absolute top-4 right-4' src='/project2/_next/static/icons/badge_thumbnail_adult15_s.svg' alt='15세 관람가 아이콘'/>":""%>
-                                                                <%=list.get(j).getEnd()==1?"<img class='absolute top-4 left-4' src='/project2/_next/static/icons/badge_thumbnail_finish_s.svg' alt='완결'/>":""%>
+                                                                <%=list.get(j).getAge()==1?"<img class='absolute top-4 right-4' src='/novelWebProject/_next/static/icons/badge_thumbnail_adult15_s.svg' alt='15세 관람가 아이콘'/>":""%>
+                                                                <%=list.get(j).getEnd()==1?"<img class='absolute top-4 left-4' src='/novelWebProject/_next/static/icons/badge_thumbnail_finish_s.svg' alt='완결'/>":""%>
                                                         </div>
                                                                     <div class="flex flex-col typo-g-md1 items-center ml-16 mr-12 w-11 desktop:mx-8 desktop:w-26">
                                                                         <span style="transform: translateY(-100%);"><%=j+1%></span>
@@ -371,12 +371,12 @@
                                                         <article class="flex items-center items-center">
                                                             <div class="flex relative shrink-0 items-start overflow-hidden ml-15 h-125 w-80 desktop:ml-0 desktop:h-[233px] desktop:w-149 order-1" style="height:233px">
                                                                 <span style="box-sizing:border-box;display:inline-block;overflow:hidden;width:149px;height:233px;background:none;opacity:1;border:0;margin:0;padding:0;position:relative">
-                                                                    <img alt="썸네일 이미지" src="/project2/_next/static/images/novel_thumb/<%=list.get(0).getPhoto() %>" decoding="async" data-nimg="fixed" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover"/>
+                                                                    <img alt="썸네일 이미지" src="/novelWebProject/_next/static/images/novel_thumb/<%=list.get(0).getPhoto() %>" decoding="async" data-nimg="fixed" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover"/>
                                                                     <noscript>
                                                                         <img alt="스트리밍 썸네일 이미지" srcSet="/_next/image?url=https%3A%2F%2Fdn-api1-kage.kakao.com%2Fdn%2FrdsqY%2FbtrXVRY8hQm%2F2v5pbDaqEgWlFV6HlrnK00%2Foriginal.jpeg&amp;w=250&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fdn-api1-kage.kakao.com%2Fdn%2FrdsqY%2FbtrXVRY8hQm%2F2v5pbDaqEgWlFV6HlrnK00%2Foriginal.jpeg&amp;w=350&amp;q=75 2x" src="/_next/image?url=https%3A%2F%2Fdn-api1-kage.kakao.com%2Fdn%2FrdsqY%2FbtrXVRY8hQm%2F2v5pbDaqEgWlFV6HlrnK00%2Foriginal.jpeg&amp;w=350&amp;q=75" decoding="async" data-nimg="fixed" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover" loading="lazy"/>
                                                                     </noscript>
                                                                 </span>
-                                                                <%=list.get(0).getAge()==1?"<img class='absolute top-4 right-4' src='/project2/_next/static/icons/badge_thumbnail_adult15_s.svg' alt='15세 관람가 아이콘'/>":""%>
+                                                                <%=list.get(0).getAge()==1?"<img class='absolute top-4 right-4' src='/novelWebProject/_next/static/icons/badge_thumbnail_adult15_s.svg' alt='15세 관람가 아이콘'/>":""%>
                                                             </div>
                                                             <div class="flex flex-col order-2 flex-1">
                                                                 <div class="flex">
@@ -412,13 +412,13 @@
                                                         <article class="flex items-center">
                                                             <div class="flex relative shrink-0 items-start overflow-hidden h-98 w-64 desktop:h-125 desktop:w-80 order-1" style="height:125px">
                                                                 <span style="box-sizing:border-box;display:inline-block;overflow:hidden;width:80px;height:125px;background:none;opacity:1;border:0;margin:0;padding:0;position:relative">
-                                                                    <img alt="" src="/project2/_next/static/images/novel_thumb/<%=list.get(j).getPhoto() %>" decoding="async" data-nimg="fixed" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover"/>
+                                                                    <img alt="" src="/novelWebProject/_next/static/images/novel_thumb/<%=list.get(j).getPhoto() %>" decoding="async" data-nimg="fixed" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover"/>
                                                                     <noscript>
                                                                         <img alt="서림동 편지 가게 : 유난히 긴 밤을 걷는 자들을 위해 열립니다. 썸네일 이미지" srcSet="/_next/image?url=https%3A%2F%2Fdn-api1-kage.kakao.com%2Fdn%2FsWOwd%2FbtrZclrilZ3%2FJr5jLK8U4HCSDRSK47nsK1%2Foriginal.jpeg&amp;w=80&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fdn-api1-kage.kakao.com%2Fdn%2FsWOwd%2FbtrZclrilZ3%2FJr5jLK8U4HCSDRSK47nsK1%2Foriginal.jpeg&amp;w=250&amp;q=75 2x" src="/_next/image?url=https%3A%2F%2Fdn-api1-kage.kakao.com%2Fdn%2FsWOwd%2FbtrZclrilZ3%2FJr5jLK8U4HCSDRSK47nsK1%2Foriginal.jpeg&amp;w=250&amp;q=75" decoding="async" data-nimg="fixed" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover" loading="lazy"/>
                                                                     </noscript>
                                                                 </span>
-                                                                <%=list.get(j).getAge()==1?"<img class='absolute top-4 right-4' src='/project2/_next/static/icons/badge_thumbnail_adult15_s.svg' alt='15세 관람가 아이콘'/>":""%>
-                                                                <%=list.get(j).getEnd()==1?"<img class='absolute top-4 left-4' src='/project2/_next/static/icons/badge_thumbnail_finish_s.svg' alt='완결'/>":""%>
+                                                                <%=list.get(j).getAge()==1?"<img class='absolute top-4 right-4' src='/novelWebProject/_next/static/icons/badge_thumbnail_adult15_s.svg' alt='15세 관람가 아이콘'/>":""%>
+                                                                <%=list.get(j).getEnd()==1?"<img class='absolute top-4 left-4' src='/novelWebProject/_next/static/icons/badge_thumbnail_finish_s.svg' alt='완결'/>":""%>
                                                             
                                                             </div>
                                                             <div class="flex flex-col order-2 flex-1">
@@ -457,7 +457,7 @@
                                         <section>
                                             <div class="flex flex-wrap w-full items-start desktop:items-center border-b-1 border-black pb-16">
                                                 <h2 class="typo-lg3-b flex-1 break-normal desktop:typo-lg1 desktop:flex-initial">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </h2>
-                                                <a class="typo-md3 ml-auto flex items-center text-black desktop:text-grey60" href="/project2/home/ranking.jsp?type=2">
+                                                <a class="typo-md3 ml-auto flex items-center text-black desktop:text-grey60" href="/novelWebProject/home/ranking.jsp?type=2">
                                                     <span class="mr-4 hidden desktop:inline">더보기</span>
                                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
                                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M11 8.00064L6.06282 13.0013L4.99541 11.9474L8.8921 8.00064L4.99541 4.05387L6.06282 3L11 8.00064Z" fill="currentColor"></path>
@@ -472,13 +472,13 @@
                                                     <a class="flex items-center flex-row" data-testid="skeleton" href="../episode/novel.jsp?num_novel=<%=list.get(j).getNum_novel()%>">
                                                         <div class="relative overflow-hidden rounded-3 bg-grey10 w-64 desktop:w-56 h-98 desktop:h-88 mr-14">
                                                                 <span style="box-sizing:border-box;display:inline-block;overflow:hidden;width:80px;height:125px;background:none;opacity:1;border:0;margin:0;padding:0;position:relative">
-                                                                    <img alt="" src="/project2/_next/static/images/novel_thumb/<%=list.get(j).getPhoto() %>" decoding="async" data-nimg="fixed" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover"/>
+                                                                    <img alt="" src="/novelWebProject/_next/static/images/novel_thumb/<%=list.get(j).getPhoto() %>" decoding="async" data-nimg="fixed" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover"/>
                                                                     <noscript>
                                                                         <img alt="서림동 편지 가게 : 유난히 긴 밤을 걷는 자들을 위해 열립니다. 썸네일 이미지" srcSet="/_next/image?url=https%3A%2F%2Fdn-api1-kage.kakao.com%2Fdn%2FsWOwd%2FbtrZclrilZ3%2FJr5jLK8U4HCSDRSK47nsK1%2Foriginal.jpeg&amp;w=80&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fdn-api1-kage.kakao.com%2Fdn%2FsWOwd%2FbtrZclrilZ3%2FJr5jLK8U4HCSDRSK47nsK1%2Foriginal.jpeg&amp;w=250&amp;q=75 2x" src="/_next/image?url=https%3A%2F%2Fdn-api1-kage.kakao.com%2Fdn%2FsWOwd%2FbtrZclrilZ3%2FJr5jLK8U4HCSDRSK47nsK1%2Foriginal.jpeg&amp;w=250&amp;q=75" decoding="async" data-nimg="fixed" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover" loading="lazy"/>
                                                                     </noscript>
                                                                 </span>
-                                                                <%=list.get(j).getAge()==1?"<img class='absolute top-4 right-4' src='/project2/_next/static/icons/badge_thumbnail_adult15_s.svg' alt='15세 관람가 아이콘'/>":""%>
-                                                                <%=list.get(j).getEnd()==1?"<img class='absolute top-4 left-4' src='/project2/_next/static/icons/badge_thumbnail_finish_s.svg' alt='완결'/>":""%>
+                                                                <%=list.get(j).getAge()==1?"<img class='absolute top-4 right-4' src='/novelWebProject/_next/static/icons/badge_thumbnail_adult15_s.svg' alt='15세 관람가 아이콘'/>":""%>
+                                                                <%=list.get(j).getEnd()==1?"<img class='absolute top-4 left-4' src='/novelWebProject/_next/static/icons/badge_thumbnail_finish_s.svg' alt='완결'/>":""%>
                                                         </div>
                                                                     <div class="flex flex-col typo-g-md1 items-center ml-16 mr-12 w-11 desktop:mx-8 desktop:w-26">
                                                                         <span style="transform: translateY(-100%);"><%=j+1%></span>

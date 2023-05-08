@@ -30,7 +30,7 @@
 <link rel="stylesheet"
 	href="https://pagestage-cdn.kakaoent.com/web/_next/static/css/593189bb3d3dd926.css"
 	data-n-p="" />
-<link rel="stylesheet" type="text/css" href="/project2/_next/static/css/login.css" />	
+<link rel="stylesheet" type="text/css" href="/novelWebProject/_next/static/css/login.css" />	
 <noscript data-n-css=""></noscript>
 </style>
 <!-- jQuery CDN 시작 -->
@@ -45,13 +45,13 @@ $(function () {
 	})
 })
 function selectNovel(num_novel){
-	location.href="/project2/episode/novel.jsp?num_novel="+num_novel;
+	location.href="/novelWebProject/episode/novel.jsp?num_novel="+num_novel;
 }
 function findNovel(){
 	frm.submit();
 }
 function deleteNovel(num_novel){
-	location.href="/project2/novel/delete_like.jsp?num_novel="+num_novel;
+	location.href="/novelWebProject/novel/delete_like.jsp?num_novel="+num_novel;
 }
 </script>
 </head>
@@ -74,7 +74,7 @@ function deleteNovel(num_novel){
 						<div style="border-bottom: 1px solid #eee;">
 							<div
 								class="flex mx-auto w-full max-w-default flex-row flex-wrap desktop:px-22 px-18 relative py-20">
-								<form id="frm" name="frm" action="/project2/login/like.jsp"
+								<form id="frm" name="frm" action="/novelWebProject/login/like.jsp"
 									class="flex mt-16 w-full items-center border-none border-black/10 max-w-full-view first:mt-0">
 									<div class="typo-md3 w-103 flex-[0_0_auto] px-0" style="font-size: 20px">좋아요 소설</div>
 									
@@ -84,7 +84,7 @@ function deleteNovel(num_novel){
 												</select>
 								<div class="flex w-full items-center" style="position: absolute;right: 10px;width: 300px;background-color: white;">
 									<img onclick="findNovel()"
-										src="/project2/_next/static/images/search.png"
+										src="/novelWebProject/_next/static/images/search.png"
 										width="24" height="24" > &nbsp;
 									<div style="width: 250px">
 										<input onKeypress="javascript:if(event.keyCode==13){findNovel()}"
@@ -134,13 +134,13 @@ function deleteNovel(num_novel){
 											<div class="relative overflow-hidden rounded-3 bg-grey10 w-80 h-122 desktop:h-125 ml-16" onclick="selectNovel('${select.num_novel}')">
 												<img
 														alt="ㄴㄹㅇㄹ"
-														srcset="/project2/_next/static/images/novel_thumb/${select.photo}"
-														src="/project2/_next/static/images/novel_thumb/${select.photo}" decoding="async"
+														srcset="/novelWebProject/_next/static/images/novel_thumb/${select.photo}"
+														src="/novelWebProject/_next/static/images/novel_thumb/${select.photo}" decoding="async"
 														data-nimg="fixed"
 														style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
 														>
-                                          		${select.age==1?"<img class='absolute top-4 right-4' src='/project2/_next/static/icons/badge_thumbnail_adult15_s.svg' alt='15세 관람가 아이콘'/>":""}
-                                          		${select.end==1?"<img class='absolute top-4 left-4' src='/project2/_next/static/icons/badge_thumbnail_finish_s.svg' alt='완결'/>":""}
+                                          		${select.age==1?"<img class='absolute top-4 right-4' src='/novelWebProject/_next/static/icons/badge_thumbnail_adult15_s.svg' alt='15세 관람가 아이콘'/>":""}
+                                          		${select.end==1?"<img class='absolute top-4 left-4' src='/novelWebProject/_next/static/icons/badge_thumbnail_finish_s.svg' alt='완결'/>":""}
 											</div>
 										</div>
 									</div>

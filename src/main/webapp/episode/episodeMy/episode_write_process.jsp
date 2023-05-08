@@ -15,7 +15,7 @@
 <script type="text/javascript">
 	if("<%=request.getMethod()%>" == "GET") {
 		alert("정상적인 방식으로 요청하지 않았어요");
-		location.href = "http://localhost/project2/episode/episode_read.jsp?num_novel="+<%= novelNum %>;
+		location.href = "http://localhost/novelWebProject/episode/episode_read.jsp?num_novel="+<%= novelNum %>;
 	}
 </script>
 
@@ -28,7 +28,7 @@
 	
 	try{
 		emDAO.insertEpisode(ceVO);
-		response.sendRedirect("/project2/novel/novel_list.jsp?num_novel="+novelNum);
+		response.sendRedirect("/novelWebProject/novel/novel_list.jsp?num_novel="+novelNum);
 		
 	}catch(SQLException e){
 		e.printStackTrace();

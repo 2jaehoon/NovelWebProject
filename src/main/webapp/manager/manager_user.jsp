@@ -18,7 +18,7 @@
 <link rel="stylesheet" href="https://pagestage-cdn.kakaoent.com/web/_next/static/css/6e5d8ba319c77348.css" data-n-g="" />
 <link rel="preload" href="https://pagestage-cdn.kakaoent.com/web/_next/static/css/fd0af5d18a01c194.css" as="style" />
 <link rel="stylesheet" href="https://pagestage-cdn.kakaoent.com/web/_next/static/css/fd0af5d18a01c194.css" data-n-p="" />
-<link rel="stylesheet" type="text/css" href="http://localhost/project2/_next/static/css/font.css"/>
+<link rel="stylesheet" type="text/css" href="http://localhost/novelWebProject/_next/static/css/font.css"/>
 
  
 <style data-href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:500,700&display=swap">
@@ -102,7 +102,7 @@
 	      });//DataTable
 	      
 	      $("#logoutBtn").click(function(){
-	 		 location.href="http://localhost/project2/manager/manager_logout.jsp"; 
+	 		 location.href="http://localhost/novelWebProject/manager/manager_logout.jsp"; 
 	 	});//click
 	      
 	    }//success
@@ -124,7 +124,7 @@
  
  
 if(session.getAttribute("sesId")==null){
-	response.sendRedirect("http://localhost/project2/manager/manager_login.jsp");
+	response.sendRedirect("http://localhost/novelWebProject/manager/manager_login.jsp");
 }
 %>
 <div id="__next"">
@@ -133,8 +133,8 @@ if(session.getAttribute("sesId")==null){
 <div class="flex flex-col h-full">
 		<header class="relative bg-white border-b-1 border-grey20">
 		<div class="flex mx-auto w-full max-w-default flex-row flex-wrap desktop:px-22 flex-wrap items-center desktop:min-h-[72px] desktop:flex-nowrap desktop:py-12">
-			<a class="ml-15 mr-16 max-w-[145px] flex-shrink flex-grow basis-0 py-[13.5px] desktop:ml-0 desktop:mr-32 desktop:max-w-[174px] desktop:py-0" href="http://localhost/project2/manager/manager_home.jsp">
-			<img class="" width="157" height="27" src="http://localhost/project2/_next/static/images/logo.png" alt="소설조아 logo" /></a>
+			<a class="ml-15 mr-16 max-w-[145px] flex-shrink flex-grow basis-0 py-[13.5px] desktop:ml-0 desktop:mr-32 desktop:max-w-[174px] desktop:py-0" href="http://localhost/novelWebProject/manager/manager_home.jsp">
+			<img class="" width="157" height="27" src="http://localhost/novelWebProject/_next/static/images/logo.png" alt="소설조아 logo" /></a>
 			<div class="flex items-center ml-auto mr-15 desktop:mr-0">
 			<button  id="logoutBtn" class="typo-md3 ml-auto flex cursor-pointer items-center rounded-50 bg-transparent text-black desktop:border-1 desktop:desktop:bg-black desktop:px-13 desktop:py-7 desktop:text-white">로그아웃</button>
 			</div>

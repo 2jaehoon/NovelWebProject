@@ -31,12 +31,12 @@
 %>
 		<script type="text/javascript">
 			alert("파라미터 novelNum의 값이 없음");
-			response.sendRedirect("http://localhost/project2/home/main.jsp");
+			response.sendRedirect("http://localhost/novelWebProject/home/main.jsp");
 		</script>
 <%	}
 	
-	String good = "http://localhost/project2/_next/static/images/good_on.png";
-	String cancelGood = "http://localhost/project2/_next/static/images/good_off.png";
+	String good = "http://localhost/novelWebProject/_next/static/images/good_on.png";
+	String cancelGood = "http://localhost/novelWebProject/_next/static/images/good_off.png";
 
 	// 선택한 회차 화면에 출력
  	EpisodeDAO epDAO = new EpisodeDAO();
@@ -92,8 +92,8 @@ $(function(){
 	
 	// 조아요 공개
 	$("#goodImg").click(function(){
-		var good = "http://localhost/project2/_next/static/images/good_on.png";
-		var cancelGood = "http://localhost/project2/_next/static/images/good_off.png";
+		var good = "http://localhost/novelWebProject/_next/static/images/good_on.png";
+		var cancelGood = "http://localhost/novelWebProject/_next/static/images/good_off.png";
 		
 		if($(this).attr("src") == cancelGood){	
 			alert("좋아요");
@@ -155,7 +155,7 @@ $(function(){
 					<div class="flex flex-[0_0_auto]">
 						<div class="flex relative shrink-0 items-start overflow-hidden h-181 w-116" style="height: 181px;">
 							<span style="box-sizing: border-box; display: inline-block; overflow: hidden; width: 116px; height: 181px; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;">
-							<img src="http://localhost/project2/_next/static/images/novel_thumb/<%= selectNovelVO.getThumbnail() %>" decoding="async"
+							<img src="http://localhost/novelWebProject/_next/static/images/novel_thumb/<%= selectNovelVO.getThumbnail() %>" decoding="async"
 								data-nimg="fixed" style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;">
 							</span>
 						</div>
@@ -176,7 +176,7 @@ $(function(){
 									
 								<!-- 좋아요 -->
 								<label><%= epDAO.cntLike(novelNum) %></label>
- 								<img id="goodImg" src=<%= epDAO.confirmLike(userNum, novelNum)== 1 ? "http://localhost/project2/_next/static/images/good_on.png":"http://localhost/project2/_next/static/images/good_off.png"%> alt="좋아요"/>
+ 								<img id="goodImg" src=<%= epDAO.confirmLike(userNum, novelNum)== 1 ? "http://localhost/novelWebProject/_next/static/images/good_on.png":"http://localhost/novelWebProject/_next/static/images/good_off.png"%> alt="좋아요"/>
 
 								<form action="like_process.jsp" id="likeFrm" method="post">
 									<input type="hidden" id="userNum" name="userNum" value="<%= userNum %>"/>
@@ -189,7 +189,7 @@ $(function(){
 								
 								
 								<!-- 신고 버튼 -->
-								<img id="reportImg" src="http://localhost/project2/_next/static/images/report.png" style="width: 40px; height: 40px;" alt="신고"/>
+								<img id="reportImg" src="http://localhost/novelWebProject/_next/static/images/report.png" style="width: 40px; height: 40px;" alt="신고"/>
 								<label><%= epDAO.cntReport(novelNum) %></label>
 								
 								<form action="report_popup.jsp" id="reportFrm" method="post">

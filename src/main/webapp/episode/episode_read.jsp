@@ -18,7 +18,7 @@
 <link rel="stylesheet" href="https://pagestage-cdn.kakaoent.com/web/_next/static/css/6e5d8ba319c77348.css" data-n-g="" />
 <link rel="preload"	href="https://pagestage-cdn.kakaoent.com/web/_next/static/css/593189bb3d3dd926.css"	as="style" />
 <link rel="stylesheet" href="https://pagestage-cdn.kakaoent.com/web/_next/static/css/593189bb3d3dd926.css" data-n-p="" />
-<link rel="stylesheet" type="text/css" href="/project2/_next/static/css/login.css" />
+<link rel="stylesheet" type="text/css" href="/novelWebProject/_next/static/css/login.css" />
 <!-- jQuery CDN설정 -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
@@ -72,7 +72,7 @@ $(function(){
 			alert("이전 에피소드가 없어요");
 			return;
 		}
- 		$(location).attr("href", "http://localhost/project2/episode/episode_read.jsp?num_novel="+<%= novelNum %>+"&epNum="+<%= prev %>);
+ 		$(location).attr("href", "http://localhost/novelWebProject/episode/episode_read.jsp?num_novel="+<%= novelNum %>+"&epNum="+<%= prev %>);
 	}); //prev
 	
 	/* 다음 화 */
@@ -81,7 +81,7 @@ $(function(){
 			alert("다음 에피소드가 없어요");
 			return;
 		}
-		$(location).attr("href", "http://localhost/project2/episode/episode_read.jsp?num_novel="+<%= novelNum %>+"&epNum="+<%= next %>);
+		$(location).attr("href", "http://localhost/novelWebProject/episode/episode_read.jsp?num_novel="+<%= novelNum %>+"&epNum="+<%= next %>);
 	}); //next
 	
 	
@@ -103,8 +103,8 @@ $(function(){
 			<div class="relative overflow-visible mt-auto mb-0 desktop:my-auto">
 			
 				<!-- 해당 소설 리스트로 이동 -->
-				<a href="http://localhost/project2/episode/novel.jsp?num_novel=<%= novelNum %>">
-					<img width="20" height="20" src="/project2/_next/static/images/list.png" style="top: 10px;" />
+				<a href="http://localhost/novelWebProject/episode/novel.jsp?num_novel=<%= novelNum %>">
+					<img width="20" height="20" src="/novelWebProject/_next/static/images/list.png" style="top: 10px;" />
 				</a>
 				
 				<!-- 소설 제목 -->

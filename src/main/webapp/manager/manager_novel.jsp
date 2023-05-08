@@ -9,7 +9,7 @@
   response.setDateHeader("Expires", 0); // Proxies.
 
    if(session.getAttribute("sesId")==null){
-     response.sendRedirect("http://localhost/project2/manager/manager_login.jsp");
+     response.sendRedirect("http://localhost/novelWebProject/manager/manager_login.jsp");
   } 
 %>
 <!DOCTYPE html>
@@ -24,7 +24,7 @@
 <link rel="stylesheet" href="https://pagestage-cdn.kakaoent.com/web/_next/static/css/6e5d8ba319c77348.css" data-n-g="" />
 <link rel="preload" href="https://pagestage-cdn.kakaoent.com/web/_next/static/css/fd0af5d18a01c194.css" as="style" />
 <link rel="stylesheet" href="https://pagestage-cdn.kakaoent.com/web/_next/static/css/fd0af5d18a01c194.css" data-n-p="" />
-<link rel="stylesheet" type="text/css" href="/project2/_next/static/css/font.css"/>
+<link rel="stylesheet" type="text/css" href="/novelWebProject/_next/static/css/font.css"/>
 <style data-href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:500,700&display=swap">
 
 	h1{
