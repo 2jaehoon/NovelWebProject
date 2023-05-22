@@ -71,7 +71,7 @@ $(function() {
 	<div id="naviBar">navi ( 1000 x 60)</div>
 </div>
 <div id="container">
-<form action="http://localhost/project/crud/insert_frm_process.jsp" method="post" id="frm" name="frm"><!--  ///////////////////////////////////////////// -->
+<form action="http://localhost/project2/crud/insert_frm_process.jsp" method="post" id="frm" name="frm"><!--  ///////////////////////////////////////////// -->
 <table>
 <tr>
 <th>암호화를 사용한 데이터 입력 폼</th>
